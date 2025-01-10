@@ -59,20 +59,20 @@ nav li a{
 .benar{
     display: flex;
     gap: 20px;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
-    margin: 0px 50px 0px 200px;
+    margin: 0 35px 0 200px;
     
 }
 .benar-title{
     color: #474747;
     font-size: 45px;
     font-weight: 600;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 .benar-sub-title{
     font-size: 85px;
-    font-weight: bold;
+    font-weight: 800;
     color: #181818;
     margin-bottom: 20px;
 }
@@ -80,11 +80,14 @@ nav li a{
     color: #757575;
     font-size: 18px;
     font-weight: 400;
+    width: 585px;
+    height: 60px;
 }
 /* section about style  */
 main{
     max-width: 1140px;
     margin: 0px auto;
+    /* text-align: center; */
 }
 .about{
     background-color: #FFF8F3;
@@ -102,7 +105,8 @@ main{
 .about-sub-title{
     color: #757575;
     font-size: 18px;
-    font-weight: 400px;
+    font-weight: 400;
+    text-align: center;
 }
 .about-section{
     display: flex;
@@ -133,6 +137,7 @@ main{
     font-weight: 400;
     margin-bottom: 30px;
     
+    
 }
 .skil{
     padding: 130px 150px;
@@ -144,7 +149,9 @@ main{
 .skil-plas{
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    
+    /* width: 267px; */
+    /* height: 377px; */
+    padding: 30px;
 }
 .skil-plas-1{
     color: #181818;
@@ -158,10 +165,80 @@ main{
 }
 /* expiranas style */
 .exparians{
+    /* text-align: center; */
+}
+.exparians-1-1{
+    font-size: 35px;
+    font-weight: bold;
     text-align: center;
 }
-.exparians-1.1{
+.exparians-1{
+    display: flex;
+    gap: 24px;
+    /* text-align: center; */
+}
+.my{
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+}
+.my-1{
+    color: #474747;
+    font-weight: bold;
+    font-size: 25px;
+}
+.my-3{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.exparians-pera{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+.cv{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+/* footer style */
+footer{
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
     
 }
-
-
+.footer{
+    width: 50%;
+    
+}
+.footer-1{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+}
+.footer-pera{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    width: 562px;
+}
+.footer-div{
+    width: 120px;
+    height: 24px;
+}
+footer input[type="text"], footer textarea{
+    display: block;
+    background-color: #FFFFFF;
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 30px 14px;
+    margin-bottom: 24px;
+    color: #757575;
+    border: none;
+}
